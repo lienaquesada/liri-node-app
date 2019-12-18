@@ -12,11 +12,8 @@ var moment = require("moment");
 
 // Info for fs
 var fs = require("fs");
-
-
 // Command
 var command = process.argv[2];
-
 
 // CONCERT
 if (command === "concert-this") {
